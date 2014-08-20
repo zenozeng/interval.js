@@ -1,0 +1,29 @@
+{
+  "name": "node-interval",
+  "version": "0.1.0",
+  "description": "Lightweight interval manager with lifetime, pause, resume, start, stop, restart support.",
+  "main": "lib/interval.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenozeng/interval.js.git"
+  },
+  "keywords": [
+    "interval",
+    "manager",
+    "pause",
+    "lifetime"
+  ],
+  "author": "Zeno Zeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenozeng/interval.js/issues"
+  },
+  "homepage": "https://github.com/zenozeng/interval.js"
+}

@@ -15,6 +15,18 @@ dom.onmousemove = function() {
 }
 ```
 
+## Install
+
+### NPM
+
+```
+npm install node-interval
+```
+
+### Browser
+
+Simply download [browser.js](https://raw.githubusercontent.com/zenozeng/interval.js/master/browser.js).
+
 ## License
 
 The MIT License (MIT)
