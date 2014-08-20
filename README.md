@@ -2,6 +2,10 @@
 
 Lightweight interval manager with lifetime, pause, resume, start, stop, restart support.
 
+## Doc
+
+https://zenozeng.github.io/interval.js
+
 ## Example
 
 ```javascript
