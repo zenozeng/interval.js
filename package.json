@@ -1,6 +1,6 @@
 {
   "name": "node-interval",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lightweight interval manager with lifetime, pause, resume, start, stop, restart support.",
   "main": "lib/interval.js",
   "directories": {
