@@ -4,7 +4,7 @@ Lightweight interval manager with lifetime, pause, resume, start, stop, restart 
 
 ## Doc
 
-https://zenozeng.github.io/interval.js
+https://zenozeng.github.io/interval.js/doc/Interval.html
 
 ## Example
 
