@@ -9,9 +9,10 @@ https://zenozeng.github.io/interval.js/doc/Interval.html
 ## Example
 
 ```javascript
-var interval = new Interval(fn, 20, 5 * 1000);
+var lifetime = 5 * 1000; // will clearInterval after 5s
+var interval = new Interval(fn, 20, lifetime);
 dom.onmousemove = function() {
-    interval.resume();
+    interval.resume(); // will setInterval (with lifetime set to 5s) if interval not exists
 }
 ```
 
