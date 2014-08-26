@@ -10,7 +10,7 @@ https://zenozeng.github.io/interval.js/doc/Interval.html
 
 ```javascript
 var lifetime = 5 * 1000; // will clearInterval after 5s
-var interval = new Interval(fn, 20, lifetime);
+var interval = new Interval(fn, {lifetime: lifetime, useRequestAnimationFrame: true});
 dom.onmousemove = function() {
     interval.resume(); // will setInterval (with lifetime set to 5s) if interval not exists
 }
