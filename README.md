@@ -21,7 +21,7 @@ dom.onmousemove = function() {
 ### NPM
 
 ```
-npm install node-interval
+npm install interval-js
 ```
 
 ### Browser
